@@ -29,6 +29,7 @@ GhostFS plugins
 [ ] Parse
 [ ] FirebirdSQL
 [ ] Oracle
+[ ] memcached
 
 - Add support to other protocols:
 
