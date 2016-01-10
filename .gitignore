@@ -1,28 +1,64 @@
-# Compiled Object files
+# C++ objects and libs
+
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+*.obj
+*.exp
 *.lib
 
-# Executables
+
+# Qt-es
+
+*.pro.user
+*.pro.user.*
+moc_*
+qrc_*
+ui_*
+ui_*.h
+Makefile
+*-build-*
+*.qrc.depends
+
+# visual studio
+*.tlog
+*.log
+*.user
+*.pdb
+*.suo
+*.*sdf
+*.ipch
+*.dll.manifest
+*.manifest
+Debug/
+debug/
+Release/
+* - Copy.h
+* - Copy.cpp
+*.manifest.res
+*.idb
+*.lastbuildstate
+*.unsuccessfulbuild
+*.rc
 *.exe
-*.out
-*.app
+*.vcproj*
+*.vcxproj*
+*.sln
+
+#doxygen
+html/
+
+#just for the transition to cmake
+unit_test/
+
+# We'll be doing CMake out-of-source builds
+#CMakeFiles/
+#CMakeCache.txt
+#*.cmake
+
