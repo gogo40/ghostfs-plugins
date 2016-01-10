@@ -1,0 +1,38 @@
+GhostFS plugins
+----------------
+
+- Add support to extern drivers written in other languages:
+
+[X] Python
+[ ] Perl
+[ ] Java
+[ ] Lua
+[ ] Ruby
+
+- Add support to sqlite protocol.
+    - sqlite protocol will be about querying a sqlite database, and the return
+    value will be available by reading the file.
+    - attribute query will be used to store the query
+    - we may need additional attributes such as password to access database
+    content.
+    - when file size is needed, we will have to perform the query, cache it
+    and then return the size of the query result as the file size.
+
+- Add support to other sql protocols:
+
+[ ] MySQL
+[ ] PostgreSQL
+[ ] Cassandra
+[ ] Redis
+[ ] ScyllaDB
+[ ] mongoDB
+[ ] Parse
+[ ] FirebirdSQL
+[ ] Oracle
+
+- Add support to other protocols:
+
+[ ] Dropbox
+[ ] Google Drive
+[ ] Google BigQuery
+
