@@ -51,7 +51,9 @@ include_directories(
     ${GHOST_FS_INCLUDE_DIRS}
 )
 
+add_definitions(-DGHOST_FS_PLUGINS_EXPORT)
 set(BUILD_SHARED_LIBS TRUE)
+
 add_library(ghostfs_plugin
     drivers_init.cc
     test/test_protocol.cc

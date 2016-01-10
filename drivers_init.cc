@@ -7,12 +7,12 @@
 */
 
 #include <protocol/base_protocol.h>
-#include <protocol/load_drivers.h>
 #include <utils.h>
 
+#include "ghostfs_plugins.h"
 #include "test/test_protocol.h"
 
-GHOSTFS_EXT_LIB_DECL void drivers_init()
+GHOST_FS_PLUGINS_DECL void drivers_init()
 {
     log("loading drivers...\n");
 
