@@ -11,7 +11,9 @@
 
 #include <protocol/base_protocol.h>
 
-class test_protocol : public base_protocol {
+#include "ghostfs_plugins.h"
+
+GHOST_FS_PLUGINS_DECL class test_protocol : public base_protocol {
     virtual const char* name() { return "test"; }
 
     virtual bool is_url_valid(const char* url);
